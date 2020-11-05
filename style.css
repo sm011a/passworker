@@ -68,31 +68,86 @@ header nav {
     height: 150px;
 }
 
-.list-two_right {
+.list-one_left p {
+    opacity: 0.5;
+}
+
+.list-one_right {
     margin-left: 10px;
     margin-top: 20px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.lists-two {
+    display: flex;
+    flex-direction: row;
+    background-color: #131313;
+    color: white;
+    justify-content: space-around;
+}
+
+.lists-two h1, h2 {
+    background: linear-gradient(45deg, #b7aeff 0%, #e99494 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 5px;
+    background: linear-gradient(45deg, #7b6aff 0%, #e28d8d 100%);
+    color: white;
+    border-radius: 8px;
+}
+
+input:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+button {
+    background: linear-gradient(45deg, #b7aeff 0%, #e99494 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-radius: 10px;
+}
+
+#keyprinting {
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.password__generate{
+display: flex;
+flex-direction: column;
 }
 
 @media screen and (max-width: 860px) {
     .lists_one {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0 0 0 20px;
     }
     .list-one_left {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        padding: 0px;
-        width: 300px;
-        height: 150px;
     }
-    .list-two_right {
+    .list-one_right {
         margin-left: 10px;
         margin-top: 20px;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    .lists-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
     }
 }
