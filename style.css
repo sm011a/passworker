@@ -16,6 +16,7 @@ header {
     justify-content: space-around;
     background-color: #131313;
     color: white;
+    height: 80px;
 }
 
 .glitch {
@@ -57,6 +58,7 @@ header nav {
     justify-content: space-around;
     align-items: center;
     margin: 0 0 0 20px;
+    height: 600px;
 }
 
 .list-one_left {
@@ -64,90 +66,81 @@ header nav {
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    width: 300px;
-    height: 150px;
+    width: 350px;
+    height: auto;
+}
+
+.list-one_left h1 {
+    font-family: 'Grenze Gotisch', cursive;
 }
 
 .list-one_left p {
     opacity: 0.5;
+    margin: 0;
 }
 
 .list-one_right {
-    margin-left: 10px;
-    margin-top: 20px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.lists-two {
-    display: flex;
-    flex-direction: row;
-    background-color: #131313;
-    color: white;
-    justify-content: space-around;
-}
-
-.lists-two h1, h2 {
-    background: linear-gradient(45deg, #b7aeff 0%, #e99494 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.settings {
     display: flex;
     flex-direction: column;
-    margin-bottom: 5px;
+    align-items: flex-start;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
 }
 
-input {
-    margin-bottom: 5px;
-    background: linear-gradient(45deg, #7b6aff 0%, #e28d8d 100%);
-    color: white;
-    border-radius: 8px;
+.list-one_right h1 {
+    font-family: 'Grenze Gotisch', cursive;
 }
 
-input:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    transform: scale(1.2);
-}
-
-button {
+#button-one {
     background: linear-gradient(45deg, #b7aeff 0%, #e99494 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    border-radius: 10px;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
 }
 
-#keyprinting {
+footer {
+    height: 300px;
+    background-color: #131313;
     display: flex;
-    color: white;
+    flex-direction: column;
     justify-content: center;
+    color: white;
 }
 
-.password__generate{
-display: flex;
-flex-direction: column;
+.footer-left{
+    margin: 0 0 0 50px;
+}
+
+.footer-left nav{
+    padding-bottom: 12px;
+    word-spacing: 6px;
+}
+
+.footer-left a{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: white;
+    opacity: 0.5;
+}
+
+.two{
+    font-size: 25px;
 }
 
 @media screen and (max-width: 860px) {
     .lists_one {
         display: flex;
         flex-direction: column;
+        height: 450px;
     }
     .list-one_left {
         display: flex;
         flex-direction: column;
-    }
-    .list-one_right {
-        margin-left: 10px;
-        margin-top: 20px;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    }
-    .lists-two {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
+        margin-left: 50px;
+        width: 300px;
+        height: auto;
     }
 }
