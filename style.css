@@ -139,8 +139,7 @@ footer {
     .list-one_left {
         display: flex;
         flex-direction: column;
-        margin-left: 50px;
-        width: 300px;
+        width: 270px;
         height: auto;
     }
 }
