@@ -26,6 +26,11 @@ header {
     -webkit-text-fill-color: transparent;
 }
 
+.glitch a {
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
 header nav {
     padding-top: 36px;
     word-spacing: 6px;
@@ -52,6 +57,8 @@ header nav {
     -moz-transform: scale(1.2);
     transform: scale(1.2);
 } */
+
+/* Main side */
 
 .lists_one {
     display: flex;
@@ -110,23 +117,23 @@ footer {
     color: white;
 }
 
-.footer-left{
+.footer-left {
     margin: 0 0 0 50px;
 }
 
-.footer-left nav{
+.footer-left nav {
     padding-bottom: 12px;
     word-spacing: 6px;
 }
 
-.footer-left a{
+.footer-left a {
     text-decoration: none;
     text-decoration-line: none;
     color: white;
     opacity: 0.5;
 }
 
-.two{
+.two {
     font-size: 25px;
 }
 
