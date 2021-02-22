@@ -69,14 +69,22 @@ header nav {
     width: 350px;
     height: auto;
 }
+.list-one_left nav{
+    padding-left: 15px;
+}
 
 .list-one_left h1 {
     font-family: 'Grenze Gotisch', cursive;
 }
 
 .list-one_left p {
-    opacity: 0.5;
+    opacity: 0.8;
     margin: 0;
+}
+
+.list-one_left a {
+    color: #131313;
+    text-decoration: none;
 }
 
 .list-one_right {
